@@ -1,2 +1,1 @@
-# rsschool-cv
-This is my first repo with rsschool
+https://ai-ge-rim.github.io/rsschool-cv/cv
