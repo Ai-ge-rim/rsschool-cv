@@ -1,31 +1,166 @@
-*{
-    box-sizing:border-box;
+
+html{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
+body{
+    box-sizing: border-box;
+    background-color:#f5f5f5;
+}
 .page_wrapper{
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+ main{
     max-width: 1440px;
     width: 100%;
     min-width: 1000px;
     margin: 0 auto;
+    display: flex;
 }
-
-.page_header{
-
-}
-
 .page_main{
-
-}
-
-.page_footer{
-
+    display: flex;
+    align-items: center;
 }
 .main_section{
-    background-color: cornsilk;
-    min-height: 800px;
+    width: 58%;
+    margin: 10px 0;
+    padding: 40px;
+    display: block;
 }
 .left_section{
     width: 42%;
     color: darkblue;
-    background-color: blanchedalmond ;
+    background-color: whitesmoke ;
 }
+html, div, .main_section, .left_section_main, .left_section_contacts{
+    display:block;
+}
+.left_section_info{
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    columns: auto;
+}
+.left_section_info img{
+    margin-bottom: 10px;
+    border: 5px solid whitesmoke;
+    border-radius: 15%;
+}
+.left_section_info h1{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.left_section_info h2{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.left_section_main{
+    padding: 0 40px;
+}
+.left_section_main h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translate(0, -50%);
+}
+.left_section_csl h3{
+    background-color:white ;
+    color: darkblue;
+    width: 200px;
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.left_section_csl li{
+    margin-bottom: 10px;
+}
+.left_section_csl li img{
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.left_section_contacts ul {
+    list-style: none;
+}
+.left_section_csl li p{
+    display: inline;
+    vertical-align: middle;
+}
+.subheader img{
+   vertical-align: middle;
+   margin-right: 15px;
+   border: 3px solid whitesmoke;
+}
+.subheader h3{
+    flex: 1;
+    vertical-align: middle;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+    display: inline-flex;
+}
+.paragraph{
+    margin: 45px;
+    padding: auto;
+    text-align: justify;
+}
+.text ul{
+    margin-left: 25px;;
+
+}
+pre{
+    margin-left: 45px;
+    margin-top: 20px;
+    padding: 0;
+    font-family: monospace;
+    font-size: 0.9rem;
+    background-color: whitesmoke;
+}
+.page_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    background-color: darkgray;
+}
+
+.page_footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.github{
+    display:flex;
+    align-items: center;
+}
+.github img{
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
