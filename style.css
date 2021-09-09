@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+}
+
+.page_wrapper{
+    max-width: 1440px;
+    width: 100%;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.page_header{
+
+}
+
+.page_main{
+
+}
+
+.page_footer{
+
+}
+.main_section{
+    background-color: cornsilk;
+    min-height: 800px;
+}
+.left_section{
+    width: 42%;
+    color: darkblue;
+    background-color: blanchedalmond ;
+}
