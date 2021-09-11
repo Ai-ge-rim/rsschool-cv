@@ -11,8 +11,8 @@ body{
     background-color:#f5f5f5;
 }
 .page_wrapper{
-    margin: 20px auto;
-    width: 1024px;
+    margin: 10px auto;
+    width: 1600px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -104,9 +104,12 @@ h3{
 .left_section_contacts ul {
     list-style: none;
 }
-.left_section_csl li p{
+.left_section_csl li li{
     display: inline;
     vertical-align: middle;
+}
+.left_section_csl p{
+    text-align: justify;
 }
 .subheader img{
    vertical-align: middle;
@@ -138,8 +141,10 @@ pre{
     padding: 0;
     font-family: monospace;
     font-size: 0.9rem;
+
     background-color: whitesmoke;
 }
+
 .page_footer{
     display: flex;
     justify-content: space-between;
@@ -163,4 +168,9 @@ pre{
     margin-right: 10px;
     border-radius: 50%;
 }
-
+.left_section_csl img{
+    margin-bottom: 10px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    align-items: center;
+}
